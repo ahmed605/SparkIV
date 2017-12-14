@@ -21,4 +21,4 @@ SparkIV BY Ahmed605 &amp; aru
 
 10- New Uploading System
 
-11- Fix Check For Updated Not Working
+11- Fix Check For Updates Not Working
