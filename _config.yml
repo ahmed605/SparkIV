@@ -1,10 +1,14 @@
 theme: jekyll-theme-architect
+
 plugins:
    - jekyll-mentions
    - jemoji
    - jekyll-redirect-from
    - jekyll-sitemap
    - jekyll-feed
+   
 source: https://github.com/ahmed605/SparkIV
+
+zip: https://github.com/ahmed605/SparkIV
 
    
