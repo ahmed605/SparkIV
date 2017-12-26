@@ -1,2 +1,7 @@
 theme: jekyll-theme-architect
-zip: https://github.com/ahmed605/SparkIV
+plugins:
+   - jekyll-mentions
+   - jemoji
+   - jekyll-redirect-from
+   - jekyll-sitemap
+   - jekyll-feed
