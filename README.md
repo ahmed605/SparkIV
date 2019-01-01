@@ -1,6 +1,9 @@
 # SparkIV
 SparkIV BY Ahmed605 &amp; aru
 
+# Downloads
+https://github.com/ahmed605/SparkIV/releases
+
 # What's New In V0.8.0 Beta
 
 * New Icons
