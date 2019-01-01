@@ -17,7 +17,7 @@ SparkIV BY Ahmed605 &amp; aru
 
 * Fixed Some Bugs
 
-* Aded Darg Future but (WIP)
+* Added Darg Future but (WIP)
 
 * New Uploading System
 
