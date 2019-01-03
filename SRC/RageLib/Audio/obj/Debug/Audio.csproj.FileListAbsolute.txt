@@ -1,0 +1,15 @@
+F:\برامج pc\gtaivtools\trunk\RageLib\Audio\bin\Debug\ragezip.dll
+F:\برامج pc\gtaivtools\trunk\RageLib\Audio\bin\Debug\RageLib.Audio.dll
+F:\برامج pc\gtaivtools\trunk\RageLib\Audio\bin\Debug\RageLib.Audio.pdb
+F:\برامج pc\gtaivtools\trunk\RageLib\Audio\bin\Debug\RageLib.Common.dll
+F:\برامج pc\gtaivtools\trunk\RageLib\Audio\bin\Debug\ICSharpCode.SharpZipLib.dll
+F:\برامج pc\gtaivtools\trunk\RageLib\Audio\bin\Debug\RageLib.Common.pdb
+F:\برامج pc\gtaivtools\trunk\RageLib\Audio\obj\Debug\RageLib.Audio.AudioView.resources
+F:\برامج pc\gtaivtools\trunk\RageLib\Audio\obj\Debug\RageLib.Audio.Properties.Resources.resources
+F:\برامج pc\gtaivtools\trunk\RageLib\Audio\obj\Debug\Audio.csproj.GenerateResource.Cache
+F:\برامج pc\gtaivtools\trunk\RageLib\Audio\obj\Debug\RageLib.Audio.dll
+F:\برامج pc\gtaivtools\trunk\RageLib\Audio\obj\Debug\RageLib.Audio.pdb
+F:\برامج pc\gtaivtools\trunk\RageLib\Audio\obj\Debug\Audio.csprojAssemblyReference.cache
+F:\برامج pc\gtaivtools\trunk\RageLib\Audio\obj\Debug\Audio.csproj.CoreCompileInputs.cache
+F:\برامج pc\gtaivtools\trunk\RageLib\Audio\obj\Debug\Audio.csproj.CopyComplete
+F:\برامج pc\gtaivtools\trunk\RageLib\Audio\bin\Debug\Ookii.Dialogs.dll
