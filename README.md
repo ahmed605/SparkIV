@@ -1,10 +1,26 @@
 # SparkIV
 SparkIV BY Ahmed605 &amp; aru
 
-# Downloads
+## Downloads
 https://github.com/ahmed605/SparkIV/releases
 
-# What's New In V0.8.0 Beta
+## Changelog
+
+### What's New In V0.8.1 Beta
+
+* Added partially Darg&Drop feature.
+
+* New update system.
+
+* Dropped support for IV/EFLC v(1.0.8.0/1.1.3.0) it will be added later!
+
+* New listing system
+
+* A folder browser dialog for selecting game folder if the ***registry path*** was deleted.
+
+* Added file deleting ability by clicking (***Delete Key***) in the keyboard.
+
+### What's New In V0.8.0 Beta
 
 * New Icons
 
