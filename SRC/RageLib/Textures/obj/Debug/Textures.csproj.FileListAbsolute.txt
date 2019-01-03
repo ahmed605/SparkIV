@@ -1,0 +1,17 @@
+F:\برامج pc\gtaivtools\trunk\RageLib\Textures\bin\Debug\ragezip.dll
+F:\برامج pc\gtaivtools\trunk\RageLib\Textures\bin\Debug\libsquish.dll
+F:\برامج pc\gtaivtools\trunk\RageLib\Textures\bin\Debug\RageLib.Textures.dll
+F:\برامج pc\gtaivtools\trunk\RageLib\Textures\bin\Debug\RageLib.Textures.pdb
+F:\برامج pc\gtaivtools\trunk\RageLib\Textures\bin\Debug\RageLib.Common.dll
+F:\برامج pc\gtaivtools\trunk\RageLib\Textures\bin\Debug\ICSharpCode.SharpZipLib.dll
+F:\برامج pc\gtaivtools\trunk\RageLib\Textures\bin\Debug\RageLib.Common.pdb
+F:\برامج pc\gtaivtools\trunk\RageLib\Textures\obj\Debug\RageLib.Textures.TextureEditView.resources
+F:\برامج pc\gtaivtools\trunk\RageLib\Textures\obj\Debug\RageLib.Textures.TexturePreviewView.resources
+F:\برامج pc\gtaivtools\trunk\RageLib\Textures\obj\Debug\RageLib.Textures.TextureView.resources
+F:\برامج pc\gtaivtools\trunk\RageLib\Textures\obj\Debug\Textures.csproj.GenerateResource.Cache
+F:\برامج pc\gtaivtools\trunk\RageLib\Textures\obj\Debug\RageLib.Textures.dll
+F:\برامج pc\gtaivtools\trunk\RageLib\Textures\obj\Debug\RageLib.Textures.pdb
+F:\برامج pc\gtaivtools\trunk\RageLib\Textures\obj\Debug\Textures.csprojAssemblyReference.cache
+F:\برامج pc\gtaivtools\trunk\RageLib\Textures\obj\Debug\Textures.csproj.CoreCompileInputs.cache
+F:\برامج pc\gtaivtools\trunk\RageLib\Textures\obj\Debug\Textures.csproj.CopyComplete
+F:\برامج pc\gtaivtools\trunk\RageLib\Textures\bin\Debug\Ookii.Dialogs.dll
