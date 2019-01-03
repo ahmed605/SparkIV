@@ -1,0 +1,12 @@
+F:\برامج pc\gtaivtools\trunk\RageLib\Scripting\bin\Debug\ragezip.dll
+F:\برامج pc\gtaivtools\trunk\RageLib\Scripting\bin\Debug\RageLib.Scripting.dll
+F:\برامج pc\gtaivtools\trunk\RageLib\Scripting\bin\Debug\RageLib.Scripting.pdb
+F:\برامج pc\gtaivtools\trunk\RageLib\Scripting\bin\Debug\RageLib.Common.dll
+F:\برامج pc\gtaivtools\trunk\RageLib\Scripting\bin\Debug\ICSharpCode.SharpZipLib.dll
+F:\برامج pc\gtaivtools\trunk\RageLib\Scripting\bin\Debug\RageLib.Common.pdb
+F:\برامج pc\gtaivtools\trunk\RageLib\Scripting\obj\Debug\RageLib.Scripting.dll
+F:\برامج pc\gtaivtools\trunk\RageLib\Scripting\obj\Debug\RageLib.Scripting.pdb
+F:\برامج pc\gtaivtools\trunk\RageLib\Scripting\obj\Debug\Scripting.csprojAssemblyReference.cache
+F:\برامج pc\gtaivtools\trunk\RageLib\Scripting\obj\Debug\Scripting.csproj.CoreCompileInputs.cache
+F:\برامج pc\gtaivtools\trunk\RageLib\Scripting\obj\Debug\Scripting.csproj.CopyComplete
+F:\برامج pc\gtaivtools\trunk\RageLib\Scripting\bin\Debug\Ookii.Dialogs.dll
