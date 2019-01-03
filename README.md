@@ -12,9 +12,9 @@ https://github.com/ahmed605/SparkIV/releases
 
 * New update system.
 
-* Dropped support for IV/EFLC v(1.0.8.0/1.1.3.0) it will be added later!
+* Added new support for **GTA IV** ***1.0.8.0*** & **EFLC** ***1.1.3.0*** **(Fixing opening error[***for thoes versions***])**.
 
-* New listing system
+* New listing system.
 
 * A folder browser dialog for selecting game folder if the ***registry path*** was deleted.
 
