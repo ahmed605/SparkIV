@@ -1,0 +1,16 @@
+version: 0.8.{build}
+build:
+  project: SRC/SparkIV/SparkIV.sln
+  verbosity: minimal
+artifacts:
+- path: SRC\SparkIV\bin\Debug\
+  name: Beta
+deploy:
+- provider: GitHub
+  tag: Auto generated build v$(appveyor_build_version)
+  release: Auto generated build v$(appveyor_build_version)
+  auth_token:
+    secure: E3sb9lPznsBDhR/vdk+DvdPff/I2kR6XG2Kne2nXVAeQW/aFMLZxq9TDUAOVoy/+
+  artifact: Beta
+  prerelease: false
+  force_update: false
