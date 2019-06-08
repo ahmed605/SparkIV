@@ -1,7 +1,9 @@
 version: 0.8.{build}
+skip_tags: true
 build:
   project: SRC/SparkIV/SparkIV.sln
   verbosity: minimal
+  skip_tags: true
 artifacts:
 - path: SRC\SparkIV\bin\Debug\
   name: Beta
