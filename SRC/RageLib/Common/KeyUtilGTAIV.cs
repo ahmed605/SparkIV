@@ -56,6 +56,7 @@ namespace RageLib.Common
                                0xBE6540 /* 1.0.6 */,
                                0xBE7540 /* 1.0.7 */,
                                0xC95FD8 /* 1.0.8 */,
+                               0xC5B33C /* latest Steam version */,
                                //Russian EXEs
                                0xB5B65C /* 1.0.0.1 */,
                                0xB569F4 /* 1.0.1.1 */,
