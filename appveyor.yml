@@ -3,6 +3,10 @@ skip_tags: true
 build:
   project: SRC/SparkIV/SparkIV.sln
   verbosity: minimal
+skip_commits:
+  files:
+    - '**/*.md'
+    - '**/*.yml'
 artifacts:
 - path: SRC\SparkIV\bin\Debug\
   name: Beta
