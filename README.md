@@ -6,6 +6,10 @@ https://github.com/ahmed605/SparkIV/releases
 
 ## Changelog
 
+### What's new in v0.8.52 Beta
+
+* Added the support for GTA IV (Complete Edition) v1.2.0.32 (for Steam and non-Steam versions).
+
 ### What's New In V0.8.1 Beta
 
 * Added partially Darg&Drop feature.
