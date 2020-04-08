@@ -11,6 +11,9 @@ skip_commits:
     - README.md
     - '*.md'
     - '/*.md'
+    - _config.yml
+    - '*.yml'
+    - '/*.yml'
 artifacts:
 - path: SRC\SparkIV\bin\Debug\
   name: Beta
