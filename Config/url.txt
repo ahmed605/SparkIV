@@ -1,1 +1,1 @@
-https://raw.githubusercontent.com/ahmed605/SparkIV/master/SparkIV%200.8.0.zip
+https://github.com/ahmed605/SparkIV/releases/download/v0.8.52/Beta.zip
