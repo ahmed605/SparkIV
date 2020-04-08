@@ -27,9 +27,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("SparkIV")]
 [assembly: AssemblyDescription("IMG/RPF Archive Viewer/Editor for GTA IV & EFLC")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Ahmed")]
+[assembly: AssemblyCompany("Ahmed Walid")]
 [assembly: AssemblyProduct("SparkIV Beta")]
-[assembly: AssemblyCopyright("2008-2019")]
+[assembly: AssemblyCopyright("2008-2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -51,5 +51,5 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("0.8.1.0")]
-[assembly: AssemblyFileVersion("0.8.1.0")]
+[assembly: AssemblyVersion("0.8.56.0")]
+[assembly: AssemblyFileVersion("0.8.56.0")]
