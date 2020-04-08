@@ -6,11 +6,15 @@ https://github.com/ahmed605/SparkIV/releases
 
 ## Changelog
 
-### What's new in v0.8.52 Beta
+### What's new in v0.8.55 (Beta)
+
+* Fix Update checker returns old version.
+
+### What's new in v0.8.52 (Beta)
 
 * Added the support for GTA IV (Complete Edition) v1.2.0.32 (for Steam and non-Steam versions).
 
-### What's New In V0.8.1 Beta
+### What's New In V0.8.1 (Beta)
 
 * Added partially Darg&Drop feature.
 
@@ -24,7 +28,7 @@ https://github.com/ahmed605/SparkIV/releases
 
 * Added file deleting ability by clicking (***Delete Key***) in the keyboard.
 
-### What's New In V0.8.0 Beta
+### What's New In V0.8.0 (Beta)
 
 * New Icons
 
