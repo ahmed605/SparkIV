@@ -9,7 +9,7 @@ plugins:
    
 source: https://github.com/ahmed605/SparkIV
 
-zip: https://github.com/ahmed605/SparkIV/
+zip: https://github.com/ahmed605/SparkIV/releases/download/v0.8.56/Beta.zip
 
 show_downloads: true
    
