@@ -6,7 +6,7 @@ https://github.com/ahmed605/SparkIV/releases
 
 ## Changelog
 
-### What's new in v0.8.55 (Beta)
+### What's new in v0.8.56 (Beta)
 
 * Fix Update checker returns old version.
 
