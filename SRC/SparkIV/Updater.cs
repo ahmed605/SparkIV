@@ -27,8 +27,8 @@ namespace SparkIV
 {
     public class Updater
     {
-        private const string VersionUrl = "https://pastebin.com/raw/M6nhwaBw";
-        private const string UpdateUrl = "https://pastebin.com/raw/R3wJ0GQ7";
+        private const string VersionUrl = "https://raw.githubusercontent.com/ahmed605/SparkIV/master/Config/version.txt";
+        private const string UpdateUrl = "https://raw.githubusercontent.com/ahmed605/SparkIV/master/Config/url.txt";
         private const string DownloadListUrl = "https://github.com/ahmed605/SparkIV/releases";
 
         public static void CheckForUpdate()
@@ -107,6 +107,7 @@ namespace SparkIV
             try
             {
                 var client = new System.Net.WebClient();
+                client.CachePolicy = new System.Net.Cache.RequestCachePolicy(System.Net.Cache.RequestCacheLevel.NoCacheNoStore);
                 result = client.DownloadString(url);
             }
             catch (Exception ex)
