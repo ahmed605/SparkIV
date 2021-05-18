@@ -79,7 +79,7 @@ namespace RageLib.Common
                             RegistryKey key;
                             if ((key = Registry.LocalMachine.OpenSubKey(s)) != null)
                             {
-                                if (File.Exists(Path.Combine(key.GetValue("InstallFolder").ToString(), ExecutableName)))
+                                if (key.GetValue("InstallFolder") != null && File.Exists(Path.Combine(key.GetValue("InstallFolder").ToString(), ExecutableName)))
                                 {
                                     dir = key.GetValue("InstallFolder").ToString();
                                     key.Close();
