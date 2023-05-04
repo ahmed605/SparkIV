@@ -56,7 +56,9 @@ namespace RageLib.Common
                                0xBE6540 /* 1.0.6 */,
                                0xBE7540 /* 1.0.7 */,
                                0xC95FD8 /* 1.0.8 */,
+                               //Complete Edition EXEs
                                0xC5B33C /* 1.2.0.32 */,
+                               0xC5B73C /* 1.2.0.59 */,
                                //Russian EXEs
                                0xB5B65C /* 1.0.0.1 */,
                                0xB569F4 /* 1.0.1.1 */,
