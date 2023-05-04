@@ -85,6 +85,8 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform" />
+    <Reference Include="Microsoft.Net.Compilers" />
     <Reference Include="Ookii.Dialogs">
       <HintPath>..\..\..\..\..\Ookii.Dialogs.dll</HintPath>
     </Reference>
