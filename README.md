@@ -1,5 +1,7 @@
 # SparkIV
-SparkIV BY Ahmed605 &amp; aru [![Build status](https://ci.appveyor.com/api/projects/status/imsh1gv0tdk8k7n9/branch/master?svg=true)](https://ci.appveyor.com/project/ahmed605/sparkiv/branch/master)
+SparkIV by aru &amp; Ahmed Walid 
+
+[![Build status](https://ci.appveyor.com/api/projects/status/imsh1gv0tdk8k7n9/branch/master?svg=true)](https://ci.appveyor.com/project/ahmed605/sparkiv/branch/master)
 
 ## Downloads
 https://github.com/ahmed605/SparkIV/releases
