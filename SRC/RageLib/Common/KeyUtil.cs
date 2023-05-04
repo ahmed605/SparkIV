@@ -148,7 +148,7 @@ namespace RageLib.Common
                         return i * 32;
                 }
 
-                return (uint)-1;
+                return (uint)0xFFFFFFFF;
             }
 
             foreach (var u in SearchOffsets)
@@ -187,7 +187,7 @@ namespace RageLib.Common
                 {
                     uint offset = LookupOffset();
                             
-                    if (offset != (uint)-1)
+                    if (offset != (uint)0xFFFFFFFF)
                         File.WriteAllText($"{ExecutableName}.keyOffset", offset.ToString());
                 }
             }
