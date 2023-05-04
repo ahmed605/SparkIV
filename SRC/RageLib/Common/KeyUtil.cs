@@ -124,7 +124,7 @@ namespace RageLib.Common
                 if (offset <= fs.Length - 32)
                 {
                     var tempKey = new byte[32];
-                    fs.Seek(u, SeekOrigin.Begin);
+                    fs.Seek(offset, SeekOrigin.Begin);
                     fs.Read(tempKey, 0, 32);
 
                     var hash = BitConverter.ToString(SHA1.Create().ComputeHash(tempKey)).Replace("-", "");
@@ -140,9 +140,9 @@ namespace RageLib.Common
 
             uint LookupOffset()
             {
-                int num = (int)Math.Floor(fs.Length / 32);
+                uint num = (uint)Math.Floor((double)(fs.Length / 32));
 
-                for (int i = 0; i < num; i++)
+                for (uint i = 0; i < num; i++)
                 {
                     if (ReadKeyFromOffset(i * 32))
                         return i * 32;
@@ -171,7 +171,7 @@ namespace RageLib.Common
                         {
                             offset = LookupOffset();
                             
-                            if (offset != (uint)-1)
+                            if (offset != (uint)0xFFFFFFFF)
                                 File.WriteAllText($"{ExecutableName}.keyOffset", offset.ToString());
                         }
                     }
@@ -179,7 +179,7 @@ namespace RageLib.Common
                     {
                         offset = LookupOffset();
                             
-                        if (offset != (uint)-1)
+                        if (offset != (uint)0xFFFFFFFF)
                             File.WriteAllText($"{ExecutableName}.keyOffset", offset.ToString());
                     }
                 }
