@@ -119,9 +119,9 @@ namespace RageLib.Common
 
             var fs = new FileStream(gameExe, FileMode.Open, FileAccess.Read);
 
-            foreach (var u in SearchOffsets)
+            bool ReadKeyFromOffset(uint offset)
             {
-                if (u <= fs.Length - 32)
+                if (offset <= fs.Length - 32)
                 {
                     var tempKey = new byte[32];
                     fs.Seek(u, SeekOrigin.Begin);
@@ -131,8 +131,64 @@ namespace RageLib.Common
                     if (hash == validHash)
                     {
                         key = tempKey;
-                        break;
+                        return true;
                     }
+                }
+
+                return false;
+            }
+
+            uint LookupOffset()
+            {
+                int num = (int)Math.Floor(fs.Length / 32);
+
+                for (int i = 0; i < num; i++)
+                {
+                    if (ReadKeyFromOffset(i * 32))
+                        return i * 32;
+                }
+
+                return (uint)-1;
+            }
+
+            foreach (var u in SearchOffsets)
+            {
+                if (ReadKeyFromOffset(u))
+                    break;
+            }
+
+            if (key == null)
+            {
+                if (File.Exists($"{ExecutableName}.keyOffset"))
+                {
+                    bool res = uint.TryParse(File.ReadAllText($"{ExecutableName}.keyOffset"), out uint offset);
+
+                    if (res)
+                    {
+                        res = ReadKeyFromOffset(offset);
+
+                        if (!res)
+                        {
+                            offset = LookupOffset();
+                            
+                            if (offset != (uint)-1)
+                                File.WriteAllText($"{ExecutableName}.keyOffset", offset.ToString());
+                        }
+                    }
+                    else
+                    {
+                        offset = LookupOffset();
+                            
+                        if (offset != (uint)-1)
+                            File.WriteAllText($"{ExecutableName}.keyOffset", offset.ToString());
+                    }
+                }
+                else
+                {
+                    uint offset = LookupOffset();
+                            
+                    if (offset != (uint)-1)
+                        File.WriteAllText($"{ExecutableName}.keyOffset", offset.ToString());
                 }
             }
 
@@ -140,6 +196,7 @@ namespace RageLib.Common
 
             return key;
         }
+
         public class GetDir
         {
             public static string Get()
