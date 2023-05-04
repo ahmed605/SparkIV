@@ -22,7 +22,7 @@ deploy:
   tag: v$(appveyor_build_version)
   release: Auto generated build v$(appveyor_build_version)
   auth_token:
-    secure: OTCNsoI7jw6Th2C5vnRRmzg5IJuwr8lcvk8drWWLmwfHDhD99LYLt47TYN4Iw8It
+    secure: LWYEMzs8C5ycXD+GihSZSywdJCIMuizQojhO0GyKcMBPtf4vp9HYBRN7pVPpz3IR
   artifact: Beta
   prerelease: false
   force_update: false
