@@ -84,6 +84,7 @@
       <HintPath>..\..\SparkIV\packages\MaterialSkin.0.2.1\lib\MaterialSkin.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Microsoft.CSharp" />
     <Reference Include="Ookii.Dialogs">
       <HintPath>..\..\..\..\..\Ookii.Dialogs.dll</HintPath>
     </Reference>
