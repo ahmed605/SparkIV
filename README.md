@@ -1,3 +1,6 @@
+# This repo is no longer maintained, all future contributions should go to @reditec's fork: https://github.com/reditec/SparkIV
+<br/><br/>
+
 # SparkIV
 SparkIV by aru &amp; Ahmed Walid 
 
